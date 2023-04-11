@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fceja/louie_proj/issues"
   },
-  "homepage": "https://github.com/fceja/louie_proj#readme"
+  "homepage": "https://github.com/fceja/louie_proj#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
 }
