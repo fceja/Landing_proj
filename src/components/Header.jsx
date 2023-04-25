@@ -1,17 +1,9 @@
+// import { ReactComponent as LogoSvg } from '../images/sf_logo.svg';
+
 export default function Header() {
   return (
     <header className="App-header">
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
+      <img src={process.env.PUBLIC_URL + "/images/sf_logo.png"} alt="sf_logo"/>
     </header>
   );
 }
