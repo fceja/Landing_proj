@@ -37,6 +37,7 @@
     display: inherit;
     border-style: dotted;
     border-color: orange;
+    position: absolute;
 }
 
 /* animations */
