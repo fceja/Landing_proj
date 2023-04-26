@@ -1,9 +1,11 @@
-import HamburgerMenu from "./HamburgerMenu"
+import "../css/components/NavBar.css";
 
-export default function Navbar () {
-    return(
-        <nav>
-            <HamburgerMenu/>
-        </nav>
-    )
+import HamburgerMenu from './HamburgerMenu.jsx';
+
+export default function NavBar () {
+  return (
+    <nav className="app-nav">
+      <HamburgerMenu/>
+    </nav>
+  );
 }
