@@ -1,9 +1,9 @@
-// import { ReactComponent as LogoSvg } from '../images/sf_logo.svg';
+import '../css/components/Header.css';
 
 export default function Header() {
   return (
-    <header className="App-header">
-      <img src={process.env.PUBLIC_URL + "/images/sf_logo.png"} alt="sf_logo"/>
+    <header id="app-header" className="row justify-content-center align-items-center">
+      <img id="img-logo" src={process.env.PUBLIC_URL + "/assets/images/sf_logo.png"} alt="sf_logo"/>
     </header>
   );
 }
