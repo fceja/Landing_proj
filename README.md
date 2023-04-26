@@ -1,3 +1,3 @@
 Work in progress.
 
-Webpage project for a friend.
+Landing page project for a friend.
