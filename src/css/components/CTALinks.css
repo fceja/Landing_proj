@@ -1,7 +1,7 @@
 
 /* XS screen sizes */
 @media(max-width:576px){
-    .CTA-container {
+    .CTA-link-container {
         height: 500px;
         width: 100%;
         display: flex;
@@ -23,7 +23,7 @@
 
 /* S screen sizes */
 @media(min-width:576px) and (max-width:768px){
-    .CTA-container {
+    .CTA-link-container {
         height: 500px;
         width: 100%;
         display: flex;
@@ -45,7 +45,7 @@
 
 /* MD screen sizes */
 @media(min-width:768px) and (max-width:992px){
-    .CTA-container {
+    .CTA-link-container {
         height: 300px;
         width: 100%;
         display: flex;
@@ -64,7 +64,7 @@
 
 /* L screen sizes */
 @media(min-width:992px) and (max-width:1200px){
-    .CTA-container {
+    .CTA-link-container {
         height: 300px;
         width: 100%;
         display: flex;
@@ -83,7 +83,7 @@
 
 /* XL screen sizes */
 @media(min-width:1200px){
-    .CTA-container {
+    .CTA-link-container {
         height: 300px;
         width: 100%;
         display: flex;
