@@ -4,6 +4,6 @@ function handleClick() {
 
 export default function TelNumber () {
     return(
-        <button onClick={handleClick}>Call Me</button>
+        <button className="tel-num" onClick={handleClick}>Call Me</button>
     )
 }

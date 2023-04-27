@@ -3,6 +3,7 @@
     height: 100%;
     display: flex;
     align-items: flex-start;
+    position: relative;
 }
 
 .hamburger-menu-bar-container {
@@ -38,6 +39,9 @@
     border-style: dotted;
     border-color: orange;
     position: absolute;
+    top: 5em;
+    z-index: 1;
+
 }
 
 /* animations */
