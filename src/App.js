@@ -6,7 +6,7 @@ import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
 import ImageSlider from "./components/ImageSlider.jsx";
 import Navbar from "./components/NavBar.jsx";
-import RowButtons from "./components/RowButtons.jsx";
+import CTALinks from "./components/CTALinks.jsx";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Navbar />
       <ImageSlider />
-      <RowButtons />
+      <CTALinks />
       <Footer />
     </div>
   );
