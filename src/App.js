@@ -1,19 +1,21 @@
-import './css/App.css';
+import "./css/App.css";
 
-import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/css/bootstrap.css";
 
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Navbar from './components/NavBar';
-import RowButtons from './components/RowButtons';
+import Footer from "./components/Footer.jsx";
+import Header from "./components/Header.jsx";
+import ImageSlider from "./components/ImageSlider.jsx";
+import Navbar from "./components/NavBar.jsx";
+import RowButtons from "./components/RowButtons.jsx";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Navbar/>
-      <RowButtons/>
-      <Footer/>
+      <Header />
+      <Navbar />
+      <ImageSlider />
+      <RowButtons />
+      <Footer />
     </div>
   );
 }
